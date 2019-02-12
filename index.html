@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap Page</title>
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1">
+    <script src="vendor/Jquery/jquery-3.3.1.min.js"></script>
+    <script src="vendor/Bootstrap/js/bootstrap.js"></script>
+    <link href="vendor/Bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-header">
+                <h2>Listado de Alumnos</h2>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-hover">
+                        <tdead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Sexo</th>
+                                <th>Correo</th>
+                                <th>Carrera</th>
+                            </tr>
+                        </tdead>
+                        <tbody>
+                            <tr>
+                                <td>Ernesto Gtz</td>
+                                <td>33</td>
+                                <td>Masculino</td>
+                                <td>neto@gmail.com</td>
+                                <td>Sistemas</td>
+                            </tr>
+                            <tr>
+                                <td>Montse Hdz</td>
+                                <td>32</td>
+                                <td>Femenino</td>
+                                <td>montse@gmail.com</td>
+                                <td>Finanzas</td>
+                            </tr>
+                            <tr>
+                                <td>Antonio Gurza</td>
+                                <td>32</td>
+                                <td>Masculino</td>
+                                <td>gurza@outlook.com</td>
+                                <td>Seguridad</td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Hdz</td>
+                                <td>25</td>
+                                <td>Masculino</td>
+                                <td>carlitos@hotmail.com</td>
+                                <td>Sistemas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div class="card-footer">
+                <button data-toggle="modal" data-target="#new" class="btn btn-primary">Agregar</button>
+                <button class="btn btn-warning">Modificar</button>
+                <button class="btn btn-danger">Eliminar</button>
+            </div>
+        </div>
+        <div id="new" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header"></div>
+                    <div class="modal-body"></div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</body>
+</html>
